@@ -1,27 +1,23 @@
 <template>
-  <div id="app">
-    <Blank/>
-  </div>
+    <div id="app" class="w-100">
+        <Navbar/>
+        <main class="minh-100vh w-100">
+            <router-view/>
+        </main>
+        <Footer/>
+    </div>
 </template>
 
 <script>
-import Blank from './components/Blank.vue'
+import Footer from '@/components/Footer.vue'
+import Navbar from '@/components/Navbar.vue' 
 
 export default {
-  name: 'LuxuryFurniture',
+  name: 'App',
   components: {
-    Blank
+    Footer,
+    Navbar
   }
 }
-</script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+</script>
