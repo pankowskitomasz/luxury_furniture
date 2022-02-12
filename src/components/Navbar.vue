@@ -14,6 +14,21 @@
                         Home
                     </router-link> 
                 </li>
+                <li class="nav-item">
+                    <router-link to="/offer" class="nav-link font-weight-bold text-light">
+                        Offer
+                    </router-link> 
+                </li>
+                <li class="nav-item">
+                    <router-link to="/about" class="nav-link font-weight-bold text-light">
+                        About
+                    </router-link> 
+                </li>
+                <li class="nav-item">
+                    <router-link to="/contact" class="nav-link font-weight-bold text-light">
+                        Contact
+                    </router-link> 
+                </li>
             </ul>
         </div>
     </nav>
